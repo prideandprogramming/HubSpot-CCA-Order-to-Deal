@@ -7,6 +7,7 @@ Use Case: Some eCommerce and ERP integrations (i.e. Shopify) will sync their ord
 <br>
 Use this in an Order triggered workflow.
 <br>
+<br>
 In your workflow, add an action to copy the output "dealID" to a string value on the Order's associated Contact. You can modify the code to create the Deal:Contact association OR this value can be used in another workflow to set the association using HubSpot's out-of-the-box association action. 
 
 
